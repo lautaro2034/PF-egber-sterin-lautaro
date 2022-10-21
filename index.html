@@ -36,21 +36,47 @@
   </head>
   <body class="grid__container">
     <header>
-      <div class="center__logo">
-        <a href="index.html"
-          ><img class="logo__header" src="fotos/VILLA-DOMINGUEZ.jpg" alt="logo"
-        /></a>
-      </div>
-      <nav>
-        <ul class="menu">
-          <li class="menu__li active"><a href="index.html">inicio</a></li>
-          <li class="menu__li"><a href="paginas/historia.html">historia</a></li>
-          <li class="menu__li"><a href="paginas/lugar.html">lugar</a></li>
-          <li class="menu__li">
-            <a href="paginas/actualidad.html">actualidad</a>
-          </li>
-          <li class="menu__li"><a href="paginas/contacto.html">contacto</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="center__logo">
+            <a href="index.html"
+              ><img
+                class="logo__header"
+                src="fotos/VILLA-DOMINGUEZ.jpg"
+                alt="logo"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="">
+              <ul class="menu">
+                <li class="menu__li active"><a href="index.html">inicio</a></li>
+                <li class="menu__li">
+                  <a href="paginas/historia.html">historia</a>
+                </li>
+                <li class="menu__li">
+                  <a href="paginas/lugar.html">lugar</a>
+                </li>
+                <li class="menu__li">
+                  <a href="paginas/actualidad.html">actualidad</a>
+                </li>
+                <li class="menu__li">
+                  <a href="paginas/contacto.html">contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
