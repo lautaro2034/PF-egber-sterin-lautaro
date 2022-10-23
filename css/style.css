@@ -119,10 +119,10 @@ h1 {
   justify-items: center;
 }
 .img_estacion {
-  margin-left: 3rem;
+  margin-left: 5rem;
   padding: 4%;
-  width: 38rem;
-  height: 38rem;
+  width: 35rem;
+  height: 35rem;
 }
 .text {
   text-align: left;
@@ -305,7 +305,7 @@ h1 {
   opacity: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1230px) {
   .center__logo {
     width: 5rem;
     margin-top: 1rem;
@@ -335,6 +335,19 @@ h1 {
     justify-content: center;
     align-items: center;
   }
+  .img_cartel {
+    padding: 4%;
+    width: 45rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .img_estacion {
+    margin-left: 3rem;
+    padding: 4%;
+    width: 36rem;
+    height: 36rem;
+  }
 
   /* historia*/
   .tarjetitas {
@@ -361,6 +374,7 @@ h1 {
     gap: 30px;
   }
 }
+
 /*efectos*/
 .img_cartel:hover {
   -webkit-transform: scale(1.3);
