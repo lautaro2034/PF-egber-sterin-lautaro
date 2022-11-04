@@ -7,6 +7,7 @@
 /* historia*/
 /*lugar*/
 /*actualidad*/
+/*efectos*/
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +42,7 @@ header {
 }
 
 .menu {
-  text-align: center;
+  text-align: right;
   list-style-type: none;
   padding: auto;
 }
@@ -75,6 +76,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .logo__footer {
@@ -136,12 +139,20 @@ h1 {
   align-items: center;
   justify-items: center;
 }
+.img_cartel:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
 
 .img_estacion {
-  margin-left: 3rem;
+  margin-left: 5rem;
   padding: 4%;
-  width: 38rem;
-  height: 38rem;
+  width: 35rem;
+  height: 35rem;
+}
+.img_estacion:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .text {
@@ -200,6 +211,11 @@ h1 {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  overflow: hidden;
+}
+.sitios:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .descripcion {
@@ -341,7 +357,12 @@ h1 {
   opacity: 1;
 }
 
-@media (min-width: 1000px) {
+img_cartel {
+  overflow: hidden;
+  overflow: hidden;
+}
+
+@media (min-width: 1230px) {
   .center__logo {
     width: 5rem;
     margin-top: 1rem;
@@ -366,6 +387,19 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .img_cartel {
+    padding: 4%;
+    width: 45rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .img_estacion {
+    margin-left: 3rem;
+    padding: 4%;
+    width: 36rem;
+    height: 36rem;
   }
   .tarjetitas {
     display: flex;
