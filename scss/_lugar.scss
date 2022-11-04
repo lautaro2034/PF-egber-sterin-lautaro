@@ -1,0 +1,22 @@
+.descripcion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  color: $color_2;
+  font-size: 3rem;
+}
+.mapa {
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+}
+.lugar__container {
+  padding: 60px;
+  gap: 30px;
+  background-image: url(../fotos/OIP.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

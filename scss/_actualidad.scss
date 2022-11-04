@@ -1,0 +1,67 @@
+.tarjetita__container {
+  padding: 60px;
+  gap: 30px;
+}
+.img__alojamiento {
+  width: 100%;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  color: $color_2;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.tarjetitas__actulidad {
+  &:hover {
+    opacity: 0.65;
+  }
+  border: 1rem double;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 1rem, 1rem, 1rem, 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.tarjetitas__museo {
+  &:hover {
+    opacity: 0.65;
+  }
+  border: 1rem double;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 1rem, 1rem, 1rem, 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.img__museo {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img__museo__dentro {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

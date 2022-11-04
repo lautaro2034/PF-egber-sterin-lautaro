@@ -1,13 +1,3 @@
-/*inicio*/
-/* historia*/
-/*lugar*/
-/*actualidad*/
-/* formulario de contacto*/
-/*inicio*/
-/* historia*/
-/*lugar*/
-/*actualidad*/
-/*efectos*/
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +11,20 @@ html {
 
 body {
   min-height: 100%;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+.grid__container {
+  display: grid;
+  gap: 10px;
+  grid-template: "header" "nav" "main" "footer";
 }
 
 header {
@@ -98,20 +102,6 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-
-nav {
-  grid-area: nav;
-}
-
-main {
-  grid-area: main;
-}
-
-.grid__container {
-  display: grid;
-  gap: 10px;
-  grid-template: "header" "nav" "main" "footer";
 }
 
 h1 {
@@ -357,11 +347,6 @@ h1 {
   opacity: 1;
 }
 
-img_cartel {
-  overflow: hidden;
-  overflow: hidden;
-}
-
 @media (min-width: 1230px) {
   .center__logo {
     width: 5rem;
@@ -422,5 +407,11 @@ img_cartel {
     gap: 30px;
   }
 }
+/*
+img_cartel {
+  overflow: hidden;
+  overflow: hidden;
+}
+*/
 
 /*# sourceMappingURL=style.css.map */

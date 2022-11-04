@@ -1,0 +1,29 @@
+footer {
+  background-color: $background-color_1;
+  grid-area: footer;
+}
+.footer__copyright {
+  color: $color_2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.logo__footer {
+  width: 5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.footer__icono {
+  width: 5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.footer__contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

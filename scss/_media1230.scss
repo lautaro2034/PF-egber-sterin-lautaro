@@ -1,0 +1,60 @@
+@media (min-width: 1230px) {
+  .center__logo {
+    width: 5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .menu {
+    text-align: right;
+    list-style-type: none;
+    padding: auto;
+  }
+  .menu__li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 1rem 1rem;
+  }
+  .inicio {
+    text-align: center;
+    font-family: $font-family_2;
+    font-size: 30px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img_cartel {
+    padding: 4%;
+    width: 45rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+  .img_estacion {
+    margin-left: 3rem;
+    padding: 4%;
+    width: 36rem;
+    height: 36rem;
+  }
+  .tarjetitas {
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+  }
+  .lugar__container {
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+    background-image: url(../fotos/OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .tarjetita__container {
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    gap: 30px;
+  }
+}

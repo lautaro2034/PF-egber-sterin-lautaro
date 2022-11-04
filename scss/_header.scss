@@ -1,0 +1,15 @@
+header {
+  background-color: $background-color_1;
+  grid-area: header;
+}
+.center__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.logo__header {
+  width: 5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,24 @@
+.menu {
+  text-align: right;
+  list-style-type: none;
+  padding: auto;
+}
+.menu__li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1rem 1rem;
+  a {
+    color: $color_1;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  &:hover {
+    opacity: 0.65;
+  }
+}
+.menu__li.active {
+  a {
+    text-decoration: underline double;
+  }
+}
