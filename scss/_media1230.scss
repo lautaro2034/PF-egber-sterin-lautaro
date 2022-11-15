@@ -51,6 +51,21 @@
     background-size: cover;
     background-position: center center;
   }
+  .descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 4rem;
+    color: $color_2;
+    font-size: 3rem;
+  }
+  .mapa {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+  }
+
   .tarjetita__container {
     display: flex;
     flex-direction: row;
